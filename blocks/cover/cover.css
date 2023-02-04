@@ -1,0 +1,25 @@
+.cover {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 92px 48px 0;
+  width: 100%;
+}
+
+@media (max-width: 1279px) {
+  .cover {
+    padding: 92px 0 0;
+  }
+}
+
+@media (max-width: 1023px) {
+  .cover {
+    padding: 90px 0 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .cover {
+    padding: 66px 0 0;
+  }
+}
